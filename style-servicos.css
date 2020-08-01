@@ -1,0 +1,144 @@
+strong {
+    font-weight: bold;
+}
+
+.imagem-cabecalho {
+	width: 20%;
+    margin-left: 100px
+}
+
+header {
+    background: #35353F
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 20%;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+nav ul li {
+	display: inline;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a {
+	text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #FEC341;
+    transition: 1s all;
+}
+
+
+main {
+    font-family: cursive;
+}
+
+main div div {
+    padding: 70px 0px;
+    font-size: 20px;
+    opacity: 0.3;
+    transition: 1s all;
+}
+
+main div div:hover {
+    opacity: 1;
+}
+
+.intro-servicos {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 100px 30px
+}
+
+.titulo {
+    padding: 10px 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ml {
+    display: inline-block;
+    vertical-align: top;
+    font-family: monospace;
+    background-size: 1270px 500px;
+    background: url("imagens/ml-back.png");
+}
+
+.ml p {
+    vertical-align: top;
+    padding: 20px 60px;
+    width: 50%;
+    display: inline-block;
+    color: white;
+}
+
+.bi {
+    display: inline-block;
+    vertical-align: top;
+    background: #EFEFEF;
+    height: 375px;
+    font-family: sans-serif;
+}
+
+.bi p {
+    padding: 20px 60px;
+    width: 50%;
+    display: inline-block;
+}
+
+.img-bi-servico {
+    float: right;
+    width: 35%;
+}
+
+.design {
+    display: inline-block;
+    vertical-align: top;
+    height: 375px;
+    background: url("imagens/design-banner.png");
+}
+
+.design p {
+    padding: 20px 60px;
+    width: 50%;
+    display: inline-block;
+}
+
+.mk {
+    display: inline-block;
+    vertical-align: top;
+    height: 375px;
+    background: url("imagens/mk-banner.png");
+    background-size: 1500px 514px;
+    color: white;
+}
+
+.mk p {
+    padding: 20px 60px;
+    width: 50%;
+    display: inline-block;
+}
+
+footer {
+    background: #424240;
+    text-align: center;
+}
+
+.imagem-logo {
+    width: 140px;
+    height: 170px; 
+}
+
+.copyright {
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+}

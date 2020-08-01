@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Serviços</title>
+
+		<link rel="sortcut icon" href="imagens/icone.png" type="image/png"/>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style-contato.css">
+	</head>
+	<body>
+		<header>
+			<img src="imagens/banner.jpeg" class="imagem-cabecalho">
+			<nav>
+				<ul>
+					<li><a href="index.html">Início</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="servicos.html">Serviços</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1 class="titulo">Se Conecte Conosco e Fale os Seus Sonhos.</h1>
+			<form>
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesobrenome" placeholder="Felizado da Silva" class="input" required>
+
+				<label for="email">E-mail</label>
+				<input type="email" id="email" placeholder="seuemailvalido@dominio.com" class="input" required>
+
+				<label for="telefone">Telefone/Celular</label>
+				<input type="tel" id="telefone" placeholder="(XX) XXXXX-XXX" class="input" required>
+
+				<label for="mensagem">Mensagem</label>
+				<textarea rows="10" class="input" ></textarea>
+			</form>
+			<fieldset>
+				<legend>Como gostaria de receber nosso contato?</legend>
+				<label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" checked>Whatsapp</label>
+
+				<label for="radio-ligacao"><input type="radio" name="contato" id="radio-ligacao">Ligação</label>
+
+				<label for="radio-email"><input type="radio" name="contato" id="radio-email">E-mail</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Qual o melhor horário para nós entramos em contato?</legend>
+				<select>
+					<option>Manhã</option>
+					<option>Tarde</option>
+				</select>
+			</fieldset>
+
+			<fieldset>
+				<legend>Qual(ais) serviço(os) você acredita que levará valor para a sua empresa?</legend>
+
+				<label for="check-ml"><input type="checkbox" id="check-ml">Machine Learning</label>
+
+				<label for="check-bi"><input type="checkbox" id="check-bi">Business Intelligence</label>
+
+				<label for="check-design"><input type="checkbox" id="check-design">Design</label>
+
+				<label for="check-mk"><input type="checkbox" id="check-mk">Marketing Digital</label>
+			</fieldset>
+
+			<table>
+				<thead>
+					<tr>
+						<td>Dia</td>
+						<td>Horário</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Segunda a Quinta</td>
+						<td>8h ~ 18h</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>8h ~ 17h</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<input type="submit" value="Quero me Conectar" class="enviar">
+
+			<img src="imagens/contato.png" class="contato">
+		</main>
+		<footer>
+			<img class="imagem-logo" src="imagens/logo.jpg">
+			<p class="copyright">&copy; Copyright LUMA - 2020</p>
+		</footer>
+	</body>
+</html>

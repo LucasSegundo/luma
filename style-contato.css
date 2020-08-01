@@ -1,0 +1,123 @@
+strong {
+    font-weight: bold;
+}
+
+.imagem-cabecalho {
+	width: 20%;
+    margin-left: 100px
+}
+
+header {
+    background: #35353F
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 20%;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+nav ul li {
+	display: inline;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a {
+	text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #FEC341;
+    transition: 1s all;
+}
+
+
+main {
+    font-family: cursive;
+    padding: 30px;
+}
+
+.titulo {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.input {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 50%;
+}
+
+fieldset {
+    padding: 15px 0px;
+}
+
+fieldset label {
+    display: block;
+    padding: 5px 0px;
+}
+
+fieldset input {
+    cursor: pointer;
+}
+
+table {
+    margin: 1.5% 0px;
+}
+
+table td {
+    padding: 5px;
+    border: solid;
+}
+
+thead {
+    background: orange;
+}
+
+.enviar {
+    width:40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+.contato {
+    position: absolute;
+    right: 0px;
+    top: 113px;
+}
+
+footer {
+    background: #424240;
+    text-align: center;
+}
+
+.imagem-logo {
+    width: 140px;
+    height: 170px; 
+}
+
+.copyright {
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+}

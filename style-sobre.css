@@ -1,0 +1,133 @@
+strong {
+    font-weight: bold;
+}
+
+.imagem-cabecalho {
+	width: 20%;
+    margin-left: 100px
+}
+
+header {
+    background: #35353F
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 20%;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+nav ul li {
+	display: inline;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a {
+	text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #FEC341;
+    transition: 1s all;
+}
+
+
+main {
+    font-family: cursive;
+    margin: 0px 2.5%;
+    padding-top: 40px;
+}
+
+.sobre {
+	padding: 40px 0px;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px 30px
+}
+
+.sobre-descricao {
+	padding: 5px 30px
+}
+
+.time-lista {
+	padding: 70px 0px;
+	text-align: center;
+	color: transparent;
+}
+
+.time-lista li {
+	width: 630px;
+	display: inline-block;
+	transition: 1s all;
+}
+
+.time-lista li:hover {
+	color: black;
+}
+
+
+.nome {
+	font-weight: bold;
+	padding: 10px;
+}
+
+main ul img {
+	padding: 20px;
+}
+
+.image-lucas {
+	width: 130px;
+	border-radius: 90px;
+	padding: 0px;
+	border: 2px solid transparent;
+    box-shadow: 10px 10px;
+}
+
+.imagem-ml {
+    width: 110px;
+    height: 120px;
+}
+
+.imagem-bi {
+    width: 140px;
+    height: 110px;
+}
+
+.image-michelly {
+	width: 130px;
+	border-radius: 90px;
+	padding: 0px;
+	border: 2px solid transparent;
+    box-shadow: 10px 10px;
+}
+
+.imagem-design {
+    width: 130px;
+    height: 110px;
+}
+
+.imagem-md {
+    width: 140px;
+    height: 110px;
+}
+
+footer {
+    background: #424240;
+    text-align: center;
+}
+
+.imagem-logo {
+    width: 140px;
+    height: 170px; 
+}
+
+.copyright {
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+}

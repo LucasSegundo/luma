@@ -1,0 +1,137 @@
+strong {
+    font-weight: bold;
+}
+
+.imagem-cabecalho {
+	width: 20%;
+    margin-left: 100px
+}
+
+header {
+    background: #35353F
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 20%;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+nav ul li {
+	display: inline;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a {
+	text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #FEC341;
+    transition: 1s all;
+}
+
+main {
+    font-family: cursive;
+}
+
+.fundo-apresentacao {
+    background: #F8F8F8;
+    padding: 20px;
+}
+
+.imagem-principal {
+    width: 40%;
+}
+
+.apresentacao {
+    vertical-align: top;
+    margin-top: 105px;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.servicos {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main ul li {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+}
+
+main ul li:hover{
+   transform: scale(1.5); 
+}
+
+.imagem-ml {
+    width: 110px;
+    height: 120px;
+}
+
+.imagem-bi {
+    width: 140px;
+    height: 110px;
+}
+
+.imagem-design {
+    width: 130px;
+    height: 110px;
+}
+
+.imagem-md {
+    width: 140px;
+    height: 110px;
+}
+
+.titulo-loc {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    text-align: center;  
+}
+
+.descricao {
+    text-align: center;
+    padding: 2em 0
+}
+
+.mapa {
+    margin: 0 auto;
+    width: 70%;
+}
+
+footer {
+    background: #424240;
+    text-align: center;
+}
+
+.imagem-logo {
+    width: 140px;
+    height: 170px; 
+}
+
+.copyright {
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+}
